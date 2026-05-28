@@ -5,3 +5,23 @@ Getting Started
 ● Rest APIs for CRUD
 
 Setting Up
+
+create folder
+npm init -y
+npm i express
+npm i ejs
+npm i mongoose
+touch app.js
+
+Model : Listing --> place(apartment, flat, villa, house, hotel);
+
+∘ title - String
+∘ description - String
+∘ image - String (url/link)
+∘ price - Number
+∘ location - String
+∘ country - String
+
+
+
+
