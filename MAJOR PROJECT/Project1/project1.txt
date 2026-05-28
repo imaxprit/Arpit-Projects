@@ -22,6 +22,12 @@ Model : Listing --> place(apartment, flat, villa, house, hotel);
 ∘ location - String
 ∘ country - String
 
+Intialize Database
+
+Index Route 
+
+GET /listings -> all listings
+
 
 
 
