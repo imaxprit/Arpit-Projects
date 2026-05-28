@@ -25,8 +25,14 @@ Model : Listing --> place(apartment, flat, villa, house, hotel);
 Intialize Database
 
 Index Route 
-
 GET /listings -> all listings
+GET /listings/:id (show) -> specify list data (view)
+
+READ : Show Route
+GET /listings/:id -> show all data
+
+CREATE : New & Create Route
+GET /listings/new -> form -> submit -> /listings -> POST
 
 
 
