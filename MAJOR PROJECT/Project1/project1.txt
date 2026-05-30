@@ -34,6 +34,10 @@ GET /listings/:id -> show all data
 CREATE : New & Create Route
 GET /listings/new -> form -> submit -> /listings -> POST
 
+UPDATE : Edit & Update Route
+DELETE Route 
+delete /listings/:id
+
 
 
 
