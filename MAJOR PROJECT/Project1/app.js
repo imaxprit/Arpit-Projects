@@ -62,6 +62,15 @@ app.post(
     // let {title, description, image, price, country, location} = req.body;
     // let listing = req.body.listing;
         const newListing = new Listing(req.body.listing);
+        if(!newListing.title) {
+            throw new ExpressError(400, "Title is missing");
+        }
+        if(!newListing.description) {
+            throw new ExpressError(400, "Description is missing");
+        }   
+        if(!newListing.location) {
+            throw new ExpressError(400, "Location is missing");
+        }
         await newListing.save();
         // console.log(listing);
         res.redirect("/listings");
